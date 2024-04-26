@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cargame</string>
+    <string name="start">Start</string>
+    <string name="restart">restart</string>
+</resources>
