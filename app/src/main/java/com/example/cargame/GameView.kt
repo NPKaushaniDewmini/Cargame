@@ -72,9 +72,9 @@ class GameView(var c: Context, var gameTask: GameTask) : View(c) {
 
                  }                 }
             myPaint!!.color=Color.WHITE
-            myPaint!!.textSize = 40f
-         canvas.drawText("Score: $score",80f,80f,myPaint!!)
-        canvas.drawText("Speed: $speed",380f,80f,myPaint!!)
+            myPaint!!.textSize = 60f
+         canvas.drawText("Score: $score",100f,150f,myPaint!!)
+        canvas.drawText("Speed: $speed",750f,150f,myPaint!!)
         invalidate()
         }
 
